@@ -15,6 +15,8 @@ Registers the official [gopls](https://go.dev/gopls/) language server with `ide`
 - **Managed installation**: builds the latest tagged gopls release with the Go SDK, authenticating modules through the Go checksum database.
 - **Project settings**: configures build flags, Go command environment, analysis and import grouping through the settings page.
 
+![Gopls locates a Go assignment with an incompatible type.](.github/demo.png)
+
 ## Installation
 
 To install `ide-gopls` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/ide-gopls`.

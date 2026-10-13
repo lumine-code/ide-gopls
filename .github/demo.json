@@ -1,0 +1,17 @@
+{
+  "title": "ide-gopls",
+  "description": "Gopls locates a Go assignment with an incompatible type.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "e0ed0ad0956b9b7c612b36d8a6c3855c812f630c",
+  "mode": "normal",
+  "fontSettings": "default",
+  "themeSourceRevision": "6564a9e21899b5541e9c8f8006f9be6d6d72e6ad",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "Gopls locates a Go assignment with an incompatible type.",
+      "width": 1100,
+      "height": 490
+    }
+  ]
+}

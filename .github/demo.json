@@ -1,17 +1,100 @@
 {
   "title": "ide-gopls",
   "description": "Gopls locates a Go assignment with an incompatible type.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "e0ed0ad0956b9b7c612b36d8a6c3855c812f630c",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "809d6dda0aecec5ad8b63de7f587315c139ade8c",
+  "themeSourceRevision": "7fbd047a87ecf1367c896b19ff270cdc28d319f7",
   "mode": "normal",
   "fontSettings": "default",
-  "themeSourceRevision": "6564a9e21899b5541e9c8f8006f9be6d6d72e6ad",
+  "scenario": "demo.js",
+  "recipeHash": "feb9eb7d780a0d90132f3c4a83319f01c9c53fb8ec346d7845c63e9ef54ab0b6",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 490 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "d0b1751fffac65f10a405545e5f01cf7ad05c0bb",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "package": {
+      "revision": "809d6dda0aecec5ad8b63de7f587315c139ade8c",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ide-gopls": {
+      "revision": "809d6dda0aecec5ad8b63de7f587315c139ade8c",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "documentation-view": {
+      "revision": "98f00040402867bdd5b046f46fb3cf31eecb17af",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "hover": {
+      "revision": "e126cdb80e5da8701b0e722be787b1cfedde9bed",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ide": {
+      "revision": "0c1735fefa858a2834213bf6d52db91a3582b828",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "language-go": {
+      "revision": "ee1c61d4ce32814d39a9fe9c3a05b105bb4ba420",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "linter": {
+      "revision": "9fc80e0296b3af2507e5ff04c7e043a813540245",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "linter-panel": {
+      "revision": "e380022d4df6542bcb57b4337b614c61c86f1d68",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "marker": {
+      "revision": "bb4fc8fec8c9d09fe59db9b0d70352ff33cde8f8",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "one-theme": {
+      "revision": "7fbd047a87ecf1367c896b19ff270cdc28d319f7",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "ide-gopls/go.mod",
+      "sha256": "3a918ce696433c45ce6eaed5e2c312648ab9113fcd6426932dc228819d2144b5"
+    },
+    {
+      "file": "ide-gopls/main.go",
+      "sha256": "6135d51964c01665ef5e00e5a57f6cb791b5dfe71094d19ed43df22d9fa493fe"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "Gopls locates a Go assignment with an incompatible type.",
       "width": 1100,
-      "height": 490
+      "height": 490,
+      "sha256": "604b58b7d8acb4d74d9a191c6001f3c0731f709a8da1b8cf9b4674123092998d"
     }
   ]
 }

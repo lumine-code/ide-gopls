@@ -64,7 +64,7 @@ liveSuite("ide-gopls real gopls protocol", () => {
     const installed = await currentServer.installServer(
       installContext({
         storagePath,
-        version: process.env.GOPLS_VERSION || "0.23.0",
+        version: process.env.GOPLS_VERSION || "0.24.0",
         api: { setServerInstallationStatus() {} },
       }),
       goPath,
@@ -79,7 +79,7 @@ liveSuite("ide-gopls real gopls protocol", () => {
       "",
     );
     expect(launch.command).toBe(path.join(storagePath, installed.binary));
-    expect(installed.version).toBe(process.env.GOPLS_VERSION || "0.23.0");
+    expect(installed.version).toBe(process.env.GOPLS_VERSION || "0.24.0");
     lumine.config.set("ide-gopls.serverPath", "");
     const { serverInfo } = await client.start({
       binaryPath: launch.command,
